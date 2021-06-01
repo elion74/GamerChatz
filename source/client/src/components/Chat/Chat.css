@@ -1,0 +1,22 @@
+.chat {
+  width: 217px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 16px;
+  margin-right: 55px;
+  background-color: #3a3a3a;
+}
+
+.profilepic {
+  width: 39px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.username {
+  color: #cbcbcb;
+}
