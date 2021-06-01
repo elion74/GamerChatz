@@ -8,13 +8,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 70px;
 
   color: #ffffff;
 }
 
 .headline {
   padding-right: 30px;
+  font-family: "Roboto Medium";
+  font-weight: lighter;
 }
 
 .login_container {
@@ -34,6 +36,8 @@
   margin-top: 46px;
   margin-left: 38px;
   color: #cbcbcb;
+  font-family: "Roboto Medium";
+  font-weight: lighter;
 }
 
 .logo_container {
@@ -46,4 +50,14 @@
   height: 90px;
   width: 90px;
   margin-top: 51px;
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../../assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../../assets/fonts/Roboto-Thin.ttf");
 }
