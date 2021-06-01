@@ -1,0 +1,24 @@
+.sidebar {
+  background-color: #303234;
+  height: 100%;
+  width: 288px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-radius: 0px 100px 0px 0px;
+}
+/* mobile sidebar bar fängt bei 1100px an */
+
+.yourchats_sec {
+  background-color: aliceblue;
+  height: 392px;
+  position: relative;
+  top: 147px;
+}
+
+.yourgroups_sec {
+  /* background-color: bisque;
+  height: 230px; */
+  /* position:relative;
+  top: 35px; */
+}
