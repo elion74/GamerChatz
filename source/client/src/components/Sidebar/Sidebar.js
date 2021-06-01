@@ -4,6 +4,9 @@ import Chat from '../Chat/Chat.js';
 import Group from '../Group/Group.js';
 
 import './Sidebar.css';
+import notificationLogo from '../../assets/notification.png';
+
+import img from '../../assets/defaultprofilepic.jpg';
 
 
 export default function Sidebar(){
@@ -22,13 +25,14 @@ return(
             <h2 className = 'yourgroups_headline'>Your groups</h2>
             <Group />
             <Group />
-            <Group />
-            {/* group component or chat component */}
         </section>
 
-        <section>
-            
-            {/* profile */}
+        <section className = 'profile_sec'>
+            <hr size='1' className = 'seperation_line'/>
+            <div className = 'profile_container'>
+                <img className ='notification' src = {notificationLogo} alt='notification'/>
+                <img  className ='yourprofile_pic' src ={img} alt='yourprofilepic'/>
+            </div>   
         </section>
 
     </aside>
