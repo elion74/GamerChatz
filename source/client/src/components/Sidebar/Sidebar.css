@@ -9,16 +9,25 @@
 }
 /* mobile sidebar bar fängt bei 1100px an */
 
+/* Chats */
 .yourchats_sec {
-  background-color: aliceblue;
   height: 392px;
-  position: relative;
-  top: 147px;
+  margin-top: 147px;
 }
 
+.yourchats_headline {
+  margin-left: 16px;
+  margin-bottom: 64px;
+  color: #cbcbcb;
+}
+/* Groups */
 .yourgroups_sec {
-  /* background-color: bisque;
-  height: 230px; */
-  /* position:relative;
-  top: 35px; */
+  height: 230px;
+  margin-top: 35px;
+}
+
+.yourgroups_headline {
+  margin-left: 16px;
+  margin-bottom: 64px;
+  color: #cbcbcb;
 }
