@@ -14,7 +14,7 @@ export default function Sidebar(){
 return(
     <aside className ='sidebar'>
         <section className = 'yourchats_sec'>
-            <h2 className ='yourchats_headline'>Your chats</h2>
+            <h2 className ='yourchats_headline'>Your Chats</h2>
             <Chat />
             <Chat />
             <Chat />
@@ -22,7 +22,7 @@ return(
         </section>
 
         <section className ='yourgroups_sec'>
-            <h2 className = 'yourgroups_headline'>Your groups</h2>
+            <h2 className = 'yourgroups_headline'>Your Groups</h2>
             <Group />
             <Group />
             <Group />

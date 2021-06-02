@@ -28,6 +28,8 @@
   margin-left: 16px;
   margin-bottom: 64px;
   color: #cbcbcb;
+  font-family: "Roboto Regular";
+  font-weight: lighter;
 }
 /* Groups */
 .yourgroups_sec {
@@ -38,6 +40,8 @@
   margin-left: 16px;
   margin-bottom: 64px;
   color: #cbcbcb;
+  font-family: "Roboto Regular";
+  font-weight: lighter;
 }
 
 /* Profile */

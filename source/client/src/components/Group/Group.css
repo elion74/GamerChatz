@@ -19,4 +19,8 @@
 
 .groupname {
   color: #cbcbcb;
+  font-family: "Roboto Thin";
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 2px;
 }
