@@ -25,6 +25,18 @@ return(
             <h2 className = 'yourgroups_headline'>Your groups</h2>
             <Group />
             <Group />
+            <Group />
+            <Group />
+            <Group />
+            <Group />
+            <Group />
+            <Group />
+            <Group />
+            <Group />
+            <Group />
+            <Group />
+            <Group />
+
         </section>
 
         <section className = 'profile_sec'>

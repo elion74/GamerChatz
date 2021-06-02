@@ -2,11 +2,20 @@
   background-color: #303234;
   height: 100%;
   width: 288px;
-  /* vlt fixed wegen scrollen in sidebar */
-  position: fixed;
-  left: 0;
-  top: 0;
-  border-radius: 0px 100px 0px 0px;
+  overflow-y: scroll;
+  border-radius: 0px 70px 0px 0px;
+}
+/* scrollbar */
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+.sidebar::-webkit-scrollbar-track {
+  margin-top: 70px;
+  background-color: rgb(26, 26, 26);
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: #3a3a3a;
+  border-radius: 25px;
 }
 
 /* Chats */
@@ -22,7 +31,6 @@
 }
 /* Groups */
 .yourgroups_sec {
-  height: 230px;
   margin-top: 35px;
 }
 
@@ -32,11 +40,8 @@
   color: #cbcbcb;
 }
 
+/* Profile */
 .profile_sec {
-  /* vlt absolute wegen scrollen in sidebar */
-  position: absolute;
-  left: 0;
-  bottom: 0;
   height: 154px;
   width: 100%;
 }
@@ -45,7 +50,7 @@
   width: 90%;
   border-top: #787b7d solid 1px;
   margin: 0 auto;
-  margin-top: 15px;
+  margin-top: 65px;
 }
 
 .profile_container {
