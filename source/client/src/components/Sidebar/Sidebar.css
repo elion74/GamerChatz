@@ -1,0 +1,71 @@
+.sidebar {
+  background-color: #303234;
+  height: 100%;
+  width: 288px;
+  /* vlt fixed wegen scrollen in sidebar */
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-radius: 0px 100px 0px 0px;
+}
+
+/* Chats */
+.yourchats_sec {
+  height: 392px;
+  margin-top: 147px;
+}
+
+.yourchats_headline {
+  margin-left: 16px;
+  margin-bottom: 64px;
+  color: #cbcbcb;
+}
+/* Groups */
+.yourgroups_sec {
+  height: 230px;
+  margin-top: 35px;
+}
+
+.yourgroups_headline {
+  margin-left: 16px;
+  margin-bottom: 64px;
+  color: #cbcbcb;
+}
+
+.profile_sec {
+  /* vlt absolute wegen scrollen in sidebar */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 154px;
+  width: 100%;
+}
+
+.seperation_line {
+  width: 90%;
+  border-top: #787b7d solid 1px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.profile_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.notification {
+  width: 42px;
+  height: 38px;
+  margin-right: 18px;
+}
+
+.yourprofile_pic {
+  width: 61px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 23px;
+}
