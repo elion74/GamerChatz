@@ -6,14 +6,19 @@ import './Home.css';
 
 export default function Home (){
 
-return(
+return(    
     <main className ='home'>
+       
+        <div className = 'wrap'>
+            {/* sidebar */}
+            <Sidebar />  
 
-        {/* sidebar */}
-        <Sidebar />  
-        
-        {/* navbar */}
+            <div className = 'content'>
+
+               {/* navbar */}
  
+            </div>
+        </div>
 
     </main>
 )

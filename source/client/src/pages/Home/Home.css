@@ -1,5 +1,15 @@
 .home {
-  background-color: #24272c;
-  width: 100%;
   height: 100vh;
+  display: flex;
+}
+
+.wrap {
+  background-color: #24272c;
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  flex: auto; /*oder flex:2*/
+  overflow-y: scroll;
 }
