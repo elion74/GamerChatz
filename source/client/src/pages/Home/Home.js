@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Sidebar from '../../components/Sidebar/Sidebar.js';
+import Navbar from '../../components/Navbar/Navbar.js';
 
 import './Home.css';
 
@@ -14,8 +15,7 @@ return(
             <Sidebar />  
 
             <div className = 'content'>
-
-               {/* navbar */}
+                <Navbar />
  
             </div>
         </div>

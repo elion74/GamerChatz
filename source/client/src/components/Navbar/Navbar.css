@@ -1,0 +1,21 @@
+.navbar {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list_items {
+  display: inline-block;
+  padding: 0 110px 0px 0px;
+  color: #787b7d;
+  font-family: "Roboto Medium";
+}
+
+/* .list_items:nth-child(1) {
+  padding: 0 20px 0px 0px;
+} */
+
+.logo {
+  width: 45px;
+}
