@@ -3,6 +3,8 @@
   height: 35px;
   background-color: #303234;
   border-radius: 35px;
+  margin: 0 auto;
+  padding: 0px;
 }
 
 .input {

@@ -4,7 +4,6 @@ import Search from '../../components/Search/Search.js';
 
 import './Navbar.css';
 
-
 import gamerchatzLogo from '../../assets/gamerchatzLogo.png';
 
 export default function Navbar(){
@@ -20,7 +19,7 @@ return(
         </nav>
 
         <Search/>
-        
+            
         <img className ='logo' src={gamerchatzLogo} alt='gamerchatzlogo'/>
     </header>
 )

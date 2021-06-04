@@ -1,0 +1,23 @@
+.publicgroup {
+  width: 246px;
+  height: 296px;
+  margin-top: 35px;
+  background-color: #303234;
+  border-radius: 10px;
+}
+
+.game_img {
+  width: 100%;
+  height: 80%;
+  object-fit: fill;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.game_name {
+  text-align: center;
+  padding-top: 15px;
+
+  color: #cbcbcb;
+  font-family: "Roboto Regular";
+  font-size: 18px;
+}
