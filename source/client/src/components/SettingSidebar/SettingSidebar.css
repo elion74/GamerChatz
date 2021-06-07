@@ -1,0 +1,25 @@
+.settings_sidebar {
+  background-color: #303234;
+  height: 100%;
+  width: 288px;
+  border-radius: 0px 70px 0px 0px;
+}
+
+.settings_topic {
+  height: 500px;
+  width: 100%;
+
+  padding-top: 147px;
+  padding-left: 16px;
+}
+
+.settings_items {
+  padding-bottom: 55px;
+  font-size: 25px;
+  color: #cbcbcb;
+  font-family: "Roboto Medium";
+}
+
+.settings_items:nth-child(1) {
+  color: #f9ba2c;
+}

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Login from './pages/Login/Login.js';
 import Home from './pages/Home/Home.js';
+import Settings from './pages/Settings/Settings.js'
 
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route path = '/' exact component = {Login}/>
         <Route path= '/home' exact component ={Home}/>
+        <Route path = '/settings' exact component={Settings}/>
       </Switch>
 
     </Router>
