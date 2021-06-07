@@ -12,4 +12,19 @@
 .content {
   flex: auto; /*oder flex:2*/
   overflow-y: scroll;
+  margin-left: 100px;
+}
+
+.headline {
+  color: #cbcbcb;
+  margin-top: 54px;
+  font-family: "Roboto Medium";
+  margin-bottom: 19px;
+}
+
+.publicgroups_sec {
+  margin-right: 180px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
