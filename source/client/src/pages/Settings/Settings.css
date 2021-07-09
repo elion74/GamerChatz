@@ -1,0 +1,71 @@
+.settings {
+  background-color: #24272c;
+  height: 100vh;
+
+  display: flex;
+}
+
+.content {
+  flex: auto; /*oder flex:2*/
+  overflow-y: scroll;
+  margin-left: 100px;
+}
+
+.head {
+  color: #cbcbcb;
+  margin-top: 54px;
+  font-family: "Roboto Regular";
+  margin-bottom: 54px;
+}
+
+.profile_sec {
+  width: 85%;
+  height: 337px;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 10px;
+  background-color: #303234;
+}
+
+.profilepic_container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_pic {
+  width: 148px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 74px;
+}
+
+.profilepic_text {
+  font-family: "Roboto Regular";
+  color: #cbcbcb;
+}
+
+.profileinfo_container {
+  width: 70%;
+
+  padding-left: 73px;
+  padding-top: 44px;
+}
+
+.profile_info {
+  margin-bottom: 32px;
+  font-family: "Roboto Regular";
+  color: #cbcbcb;
+}
+.profile_field {
+  width: 50%;
+  height: 39px;
+  margin-bottom: 52px;
+  background-color: #3a3a3a;
+}
