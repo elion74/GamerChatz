@@ -30,6 +30,19 @@ export default function Settings() {
                         <p className='profilepic_text'>profile picture</p>
                     </div>
                 </section>
+
+                <hr size='1' className='seperation_line' />
+
+                <section>
+                    <button className='change_password'>change password</button>
+                </section>
+
+                <hr size='1' className='seperation_line' />
+
+                <section>
+                    <button className='delete_account'>delete account</button>
+                </section>
+
             </div>
         </main>
     )
