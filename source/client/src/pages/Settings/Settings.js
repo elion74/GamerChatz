@@ -21,7 +21,7 @@ export default function Settings() {
                         <p className='profile_info'>Username</p>
                         <div className='profile_field'></div>
 
-                        <p className='profile_info'>Email name</p>
+                        <p className='profile_info'>Email</p>
                         <div className='profile_field'></div>
                     </div>
 
