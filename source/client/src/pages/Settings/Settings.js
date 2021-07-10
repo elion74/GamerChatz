@@ -14,7 +14,7 @@ export default function Settings() {
             <SettingSidebar />
             <div className='content'>
                 <Navbar />
-                <h1 className='head'>Settings</h1>
+                <h1 className='head'>Settings Page</h1>
 
                 <section className='profile_sec'>
                     <div className='profileinfo_container'>
