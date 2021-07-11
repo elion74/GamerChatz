@@ -2,11 +2,11 @@ import React from 'react';
 
 import '../yourChats/yourChats.css';// same style as in yourChats page (yourChats.css)
 
+import  fornite from '../../assets/fortnite.jpg';
 
 import Sidebar from '../../components/Sidebar/Sidebar.js';
 import Navbar from '../../components/Navbar/Navbar.js';
 import TextBar from '../../components/TextBar/TextBar.js';
-import PublicGroup from '../../components/PublicGroup/PublicGroup.js';
 
 export default function publicGroups() {
 
@@ -18,12 +18,12 @@ export default function publicGroups() {
                 <div className='content'>
                     <Navbar />
 
-                    <h1 className='headline'>public groups name</h1>
+                    <h1 className='public_headline'>public groups name</h1>
                     
                     <section className = 'publicgroup_container'>
                         <div className = 'publicgroups_box'>
-                            {/* <PublicGroup /> */}
-                            asdf
+                            <img className = 'game_img' alt='fortnite' src={fornite} />
+                            <p className = 'game_name'>Fortnite</p>
                         </div>
                     </section>
 
