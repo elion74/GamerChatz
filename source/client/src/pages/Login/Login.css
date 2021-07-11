@@ -9,7 +9,6 @@
   justify-content: center;
   align-items: center;
   padding-top: 70px;
-
   color: #ffffff;
 }
 
@@ -22,7 +21,7 @@
 .login_container {
   display: flex;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .login_modal {
