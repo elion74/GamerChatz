@@ -20,13 +20,69 @@ export default function publicGroups() {
 
                     <h1 className='headline'>public groups name</h1>
                     
-                    <div className = 'publicgroups_box'>
-                        {/* <PublicGroup /> */}
-                        asdf
-
-                    </div>
+                    <section className = 'publicgroup_container'>
+                        <div className = 'publicgroups_box'>
+                            {/* <PublicGroup /> */}
+                            asdf
+                        </div>
+                    </section>
 
                     <section className='chat_sec'>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
+                        <p>elion: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi wussup</p>
+                        <p>time: hi awussup</p>
+                        <p>john: hi wussup</p>
                         <p>elion: hi wussup</p>
                         <p>time: hi wussup</p>
                         <p>time: hi wussup</p>

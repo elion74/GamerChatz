@@ -26,4 +26,24 @@
   margin-top: 64px;
   font-family: "Roboto Medium";
   color: #cbcbcb;
+  float: left;
+}
+
+.publicgroup_container {
+  /* display: flex;
+  justify-content: flex-end; */
+  margin-right: 100px; /* vlt- ?????*/
+  float: right;
+}
+
+.publicgroups_box {
+  width: 246px;
+  height: 296px;
+  /* display: flex;
+  justify-content: flex-end; */
+  background-color: white;
+  /* margin-right: 0px; */
+  position: sticky;
+  top: 0px;
+  right: 0px;
 }
