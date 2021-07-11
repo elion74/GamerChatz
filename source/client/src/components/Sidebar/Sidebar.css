@@ -46,8 +46,9 @@
 
 /* Profile */
 .profile_sec {
-  height: 154px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .seperation_line {
@@ -59,9 +60,8 @@
 
 .profile_container {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  margin-top: 40px;
+  margin: auto 0px;
 }
 
 .notification {
