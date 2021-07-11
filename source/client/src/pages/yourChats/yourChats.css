@@ -1,0 +1,31 @@
+.yourchats{
+    height: 100vh;
+  display: flex;
+}
+
+.wrap {
+    background-color: #24272c;
+    display: flex;
+    flex: 1;
+}
+
+.content {
+    flex: auto; /*oder flex:2*/
+    overflow-y: scroll;
+    margin-left: 100px;
+}
+
+
+.headline {
+    color: #cbcbcb;
+    margin-top: 54px;
+    font-family: "Roboto Medium";
+    margin-bottom: 19px;
+}
+
+.chat_sec{
+    margin-top:64px;
+    font-family: "Roboto Medium";
+    color:#CBCBCB;
+}
+

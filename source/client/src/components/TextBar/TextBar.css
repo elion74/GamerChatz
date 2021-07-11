@@ -1,0 +1,34 @@
+.textbar_sec{
+    position:fixed;
+    bottom:25px;
+    
+    width:70%;
+}
+
+.text_bar{
+    position: static;
+    height:50px;
+    width:100%;
+
+    margin:0 auto;
+    border-radius: 10px;
+    background-color: #303234;
+}
+
+@media screen and (max-width: 1327px) {
+    .textbar_sec {
+      width:65%;
+    }
+}
+
+@media screen and (max-width: 1135px) {
+    .textbar_sec {
+      width:62%;
+    }
+}
+
+@media screen and (max-width: 1047px) {
+    .textbar_sec {
+      width:56%;
+    }
+}
