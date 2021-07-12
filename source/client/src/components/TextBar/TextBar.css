@@ -5,6 +5,7 @@
   bottom: 25px;
 
   width: 70%;
+  z-index: 1;
 }
 
 .text_bar {
@@ -29,6 +30,16 @@
 
 .textbarbutton_image {
   padding-right: 10px;
+}
+
+.text_cover {
+  position: fixed;
+  bottom: 0px;
+
+  height: 77px;
+  width: 70%;
+  /* z-index: ; */
+  background-color: #24272c;
 }
 
 @media screen and (max-width: 1327px) {
