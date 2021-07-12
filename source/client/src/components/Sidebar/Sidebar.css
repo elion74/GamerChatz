@@ -55,7 +55,7 @@
 .profile_container {
   display: flex;
   align-items: center;
-  margin: auto 0px;
+  margin: auto;
 }
 
 .notification {
