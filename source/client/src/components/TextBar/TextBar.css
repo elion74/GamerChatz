@@ -1,34 +1,50 @@
-.textbar_sec{
-    position:fixed;
-    bottom:25px;
-    
-    width:70%;
+.textbar_sec {
+  display: flex;
+
+  position: fixed;
+  bottom: 25px;
+
+  width: 70%;
 }
 
-.text_bar{
-    position: static;
-    height:50px;
-    width:100%;
+.text_bar {
+  position: static;
+  height: 50px;
+  width: 100%;
 
-    margin:0 auto;
-    border-radius: 10px;
-    background-color: #303234;
+  margin: 0 auto;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #303234;
+  border: none;
+  outline: none;
+  color: #cbcbcb;
+  font-size: 1.2em;
+}
+
+.textbar_button {
+  background-color: #303234;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.textbarbutton_image {
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 1327px) {
-    .textbar_sec {
-      width:65%;
-    }
+  .textbar_sec {
+    width: 65%;
+  }
 }
 
 @media screen and (max-width: 1135px) {
-    .textbar_sec {
-      width:62%;
-    }
+  .textbar_sec {
+    width: 62%;
+  }
 }
 
 @media screen and (max-width: 1047px) {
-    .textbar_sec {
-      width:56%;
-    }
+  .textbar_sec {
+    width: 56%;
+  }
 }

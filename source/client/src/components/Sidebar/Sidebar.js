@@ -39,8 +39,9 @@ return(
 
         </section>
 
+
         <section className = 'profile_sec'>
-            <hr size='1' className = 'seperation_line'/>
+            <hr size = "1" className = 'seperation_line'/>
             <div className = 'profile_container'>
                 <img className ='notification' src = {notificationLogo} alt='notification'/>
                 <img  className ='yourprofile_pic' src ={img} alt='yourprofilepic'/>
