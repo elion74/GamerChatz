@@ -49,13 +49,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.seperation_line {
-  width: 90%;
-  border-top: #787b7d solid 1px;
   margin: 0 auto;
-  margin-top: 65px;
 }
 
 .profile_container {
@@ -67,7 +61,7 @@
 .notification {
   width: 42px;
   height: 38px;
-  margin-right: 18px;
+  margin-right: 35px;
 }
 
 .yourprofile_pic {
@@ -76,5 +70,4 @@
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
-  margin-right: 23px;
 }
