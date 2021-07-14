@@ -25,6 +25,10 @@
   margin: 0 auto;
 }
 
+.hamburger_menu span {
+  display: none;
+}
+
 /* Navbar view for Tablets */
 @media screen and (max-width: 1100px) {
   .list_items {
@@ -32,5 +36,44 @@
   }
   .list_items:nth-child(1) {
     padding: 0 50px 0px 0px;
+  }
+}
+
+/*  Navbar view for Handys */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .list_items {
+    margin: 15px;
+    font-size: 1.2em;
+  }
+
+  .list_items:nth-child(3) {
+    display: none;
+  }
+
+  .hamburger_menu span {
+    display: block;
+    margin: 4px;
+    height: 4px;
+    width: 25px;
+    background: #cbcbcb;
+    border-radius: 3px;
+  }
+
+  .list_items {
+    padding: 0;
+  }
+  .list_items:nth-child(1) {
+    padding: 0;
+  }
+
+  .logo {
+    margin: 0;
   }
 }

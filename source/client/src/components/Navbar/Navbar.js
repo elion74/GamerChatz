@@ -10,6 +10,12 @@ export default function Navbar(){
 
 return(
     <header className = 'navbar'>
+    {/* burger menu  */}
+    <label className = 'hamburger_menu'>
+      <span></span>
+        <span></span>
+        <span></span>
+    </label>
         <nav className='nav_links'>
             <ul className = 'list'>
                 <li className = 'list_items'>Home</li>
