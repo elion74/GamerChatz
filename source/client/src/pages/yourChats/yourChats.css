@@ -30,6 +30,8 @@
   float: left; /*das hier vlt nicht bei jeder seite also yourchats, yourgroups sondern nur bei publicgroups */
 }
 
+/* styles for publicgroups page  */
+
 .public_headline {
   color: #cbcbcb;
   margin-top: 54px;

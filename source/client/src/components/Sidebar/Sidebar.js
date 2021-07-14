@@ -39,9 +39,9 @@ return(
 
         </section>
 
+        <div style = {{width:"80%", margin:"0 auto", borderTop:" #787b7d solid 1px", marginTop:"65px"}}></div>
 
         <section className = 'profile_sec'>
-            <hr size = "1" className = 'seperation_line'/>
             <div className = 'profile_container'>
                 <img className ='notification' src = {notificationLogo} alt='notification'/>
                 <img  className ='yourprofile_pic' src ={img} alt='yourprofilepic'/>
