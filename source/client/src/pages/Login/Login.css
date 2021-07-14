@@ -50,3 +50,35 @@
   width: 90px;
   margin-top: 51px;
 }
+
+@media only screen and (max-width: 600px) {
+  .login_modal {
+    background-color: #303234;
+    width: 293px;
+    height: 385px;
+    border-radius: 10px;
+  }
+  .logos {
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+  }
+
+  .headline_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .headline {
+    padding-right: 0;
+    margin: 0;
+  }
+}
+/* display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 70px;
+color: #ffffff; */
