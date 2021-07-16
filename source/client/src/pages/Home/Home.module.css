@@ -35,4 +35,16 @@
     margin: 0;
     padding: 0;
   }
+  .headline {
+    text-align: center;
+  }
+  .publicgroups_sec {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .publicgroups_sec:last-of-type {
+    margin-bottom: 100px;
+  }
 }
