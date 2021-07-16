@@ -69,3 +69,22 @@
   font-family: "Roboto Regular";
   font-size: 18px;
 }
+
+/* for handys */
+@media only screen and (max-width: 600px) {
+  .content {
+    margin: 0;
+  }
+  .headline {
+    text-align: center;
+  }
+  .chat_sec {
+    padding-left: 25px;
+  }
+  .publicgroup_container {
+    display: none;
+  }
+  .public_headline {
+    text-align: center;
+  }
+}
