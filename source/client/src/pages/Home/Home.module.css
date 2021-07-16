@@ -28,3 +28,11 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+/* for handys */
+@media only screen and (max-width: 600px) {
+  .content {
+    margin: 0;
+    padding: 0;
+  }
+}

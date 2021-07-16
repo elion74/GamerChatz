@@ -71,3 +71,10 @@
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
+/* for handys */
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}

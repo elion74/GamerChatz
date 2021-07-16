@@ -21,3 +21,9 @@
   padding-left: 20px;
   font-family: "Roboto Medium";
 }
+
+@media only screen and (max-width: 600px) {
+  .form {
+    display: none;
+  }
+}

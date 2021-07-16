@@ -4,27 +4,27 @@ import Sidebar from '../../components/Sidebar/Sidebar.js';
 import Navbar from '../../components/Navbar/Navbar.js';
 import PublicGroup from '../../components/PublicGroup/PublicGroup.js';
 
-import './Home.css';
+import * as homestyle from './Home.module.css'
 
 export default function Home() {
 
     return (
-        <main className='home'>
+        <main  className = {homestyle.home}>
 
-            <div className='wrap'>
+            <div className = {homestyle.wrap}>
                 <Sidebar />
 
-                <div className='content'>
+                <div className={homestyle.content}>
                     <Navbar />
 
-                    <h1 className='headline'>Public Groups</h1>
-                    <section className='publicgroups_sec'>
+                    <h1 className={homestyle.headline}>Public Groups</h1>
+                    <section className = {homestyle.publicgroups_sec}>
                         <PublicGroup />
                         <PublicGroup />
                         <PublicGroup />
                         <PublicGroup />
                     </section>
-                    <section className='publicgroups_sec'>
+                    <section className = {homestyle.publicgroups_sec}>
                         <PublicGroup />
                         <PublicGroup />
                         <PublicGroup />
