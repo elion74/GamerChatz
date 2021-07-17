@@ -23,3 +23,10 @@
 .settings_items:nth-child(1) {
   color: #f9ba2c;
 }
+
+/* for handys */
+@media only screen and (max-width: 600px) {
+  .settings_sidebar {
+    display: none;
+  }
+}

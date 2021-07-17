@@ -103,3 +103,48 @@
   border: solid 3px #f9ba2c;
   font-size: 14px;
 }
+
+/* for handys */
+@media only screen and (max-width: 600px) {
+  .content {
+    margin: 0;
+    padding: 0;
+  }
+  .head {
+    text-align: center;
+  }
+
+  .profile_sec {
+    width: 80%;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 100px auto;
+  }
+  .profileinfo_container {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+  }
+  .profilepic_container {
+    margin: 0;
+    padding: 0;
+  }
+  .profile_field {
+    width: 100%;
+  }
+  .profilepic_text {
+    text-align: center;
+  }
+  .seperation_line {
+    margin: 0 auto;
+  }
+  .button_sec {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}

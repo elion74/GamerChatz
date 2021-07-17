@@ -59,3 +59,11 @@
     width: 56%;
   }
 }
+
+/* for handys */
+@media only screen and (max-width: 600px) {
+  .textbar_sec {
+    width: 90%;
+    margin-left: 25px;
+  }
+}
