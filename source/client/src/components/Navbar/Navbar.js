@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import Search from '../../components/Search/Search.js';
 
@@ -8,24 +8,27 @@ import gamerchatzLogo from '../../assets/gamerchatzLogo.png';
 
 export default function Navbar() {
 
+    const [open, setOpen] = useState(false);
+
+
     return (
         <header className='navbar'>
+
             {/* burger menu  */}
-        
-            
-              
-            <label className='hamburger_menu'>
-                <input type="checkbox" className = 'checkbox'/>
+            <label className='hamburger_menu' onClick ={() => setOpen(prevState => !prevState)}>
                 <span></span>
                 <span></span>
                 <span></span>
-                
-                <div class="ham-wrap">
-                    
-                </div>
             </label>
-        
-            <nav className='nav_links'>
+
+            <div className={open ? "ham-wrap-open" : 'ham-wrap-close'}>
+                <div className = 'hamburgermenu_cross' onClick = {() => setOpen(prevState => !prevState)}>
+                    <div className = 'hamburger_line1'></div>
+                    <div className = 'hamburger_line2'></div>
+                </div>
+            </div>
+
+          <nav className='nav_links'>
                 <ul className='list'>
                     <li className='list_items'>Home</li>
                     <li className='list_items'>Settings</li>
