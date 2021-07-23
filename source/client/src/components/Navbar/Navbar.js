@@ -45,11 +45,7 @@ export default function Navbar() {
                  <Chat /> 
                  <Chat /> 
                 </section>
-                </>
-                : ''}
 
-                { open ?
-                <>
                 <h2 className = 'wrapchats_headline'>Your Groups</h2>
                 <section className = 'wrap_chats'>
                  <Group/> 
@@ -71,10 +67,7 @@ export default function Navbar() {
                     </div>   
                 </section>
                 </>
-                : ''}
-
-
-
+                :''}
             </div>
 
           <nav className='nav_links'>
