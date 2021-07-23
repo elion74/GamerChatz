@@ -81,28 +81,43 @@
     margin: 0;
   }
 
-  .ham-wrap {
+  .ham-wrap-open {
     height: 100vh;
     width: 100%;
     background-color: #303234;
     position: absolute;
     top: 0;
     left: 0;
+    display: block;
+    padding-top: 25px;
+    padding-left: 15px;
+  }
+
+  .ham-wrap-close {
     display: none;
   }
 
-  .checkbox {
-    display: block;
-    position: fixed;
-    left: 0px;
-    top: 25px;
-
-    width: 35px;
+  .hamburgermenu_cross {
     height: 30px;
-    z-index: -9;
-  }
 
-  .checkbox:checked ~ .ham-wrap {
-    display: block;
+    width: 40px;
+    margin: 0;
+    margin-top: 25px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .hamburger_line1 {
+    width: 25px;
+    height: 4px;
+    transform: rotate(135deg);
+    background-color: #cbcbcb;
+  }
+  .hamburger_line2 {
+    width: 23px;
+    padding-left: 3px;
+    height: 4px;
+    transform: rotate(43deg);
+    background-color: #cbcbcb;
   }
 }
