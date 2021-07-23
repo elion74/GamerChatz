@@ -82,15 +82,13 @@
   }
 
   .ham-wrap-open {
-    height: 100vh;
+    /* height: 100%; */
     width: 100%;
     background-color: #303234;
     position: absolute;
     top: 0;
     left: 0;
     display: block;
-    padding-top: 25px;
-    padding-left: 15px;
   }
 
   .ham-wrap-close {
@@ -99,13 +97,12 @@
 
   .hamburgermenu_cross {
     height: 30px;
-
     width: 40px;
     margin: 0;
     margin-top: 25px;
     position: relative;
-    top: 0;
-    left: 0;
+    top: 25px;
+    left: 23px;
   }
   .hamburger_line1 {
     width: 25px;
@@ -119,5 +116,20 @@
     height: 4px;
     transform: rotate(43deg);
     background-color: #cbcbcb;
+  }
+
+  .wrap_chats {
+    margin-left: 43px;
+  }
+  .wrapchats_headline {
+    margin-left: 59px;
+    margin-top: 60px;
+    color: #cbcbcb;
+    font-family: "Roboto Medium";
+    font-weight: lighter;
+  }
+
+  .profile_sec {
+    margin-bottom: 50px;
   }
 }
