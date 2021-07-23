@@ -14,6 +14,7 @@
   padding: 0 100px 0px 0px;
   color: #787b7d;
   font-family: "Roboto Medium";
+  text-decoration: none;
 }
 
 .list_items:nth-child(1) {
@@ -127,6 +128,11 @@
     color: #cbcbcb;
     font-family: "Roboto Medium";
     font-weight: lighter;
+  }
+
+  .wrap_sourcecode {
+    text-decoration: none;
+    color: #cbcbcb;
   }
 
   .profile_sec {

@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 
 import Search from '../../components/Search/Search.js';
 import Chat from '../Chat/Chat.js';
@@ -56,7 +57,8 @@ export default function Navbar() {
                  <Group /> 
                 </section>
             
-                <h2 className = 'wrapchats_headline'>Source Code</h2>
+                {/* <h2 className = 'wrap_sourcecode'>Source Code</h2> */}
+                <h2 className = 'wrapchats_headline'><a className = 'wrap_sourcecode' href = 'https://github.com/elion74/GamerChatz'>Source Code</a></h2>
                 
                 <div style = {{width:"80%", margin:"0 auto", borderTop:" #787b7d solid 1px", marginTop:"65px", marginBottom:'60px'}}></div>
 
@@ -70,11 +72,11 @@ export default function Navbar() {
                 :''}
             </div>
 
-          <nav className='nav_links'>
+            <nav className='nav_links'>
                 <ul className='list'>
-                    <li className='list_items'>Home</li>
-                    <li className='list_items'>Settings</li>
-                    <li className='list_items'>Source Code</li>
+                    <li className='list_items'><Link to = '/home' style={{ textDecoration: 'none', color:'#787b7d'}}>Home</Link></li>
+                    <li className='list_items'><Link to = '/settings' style={{ textDecoration: 'none', color:'#787b7d'}}>Settings</Link></li>
+                    <a className = 'list_items' href = 'https://github.com/elion74/GamerChatz'>Source Code</a>
                 </ul>
             </nav>
 
