@@ -1,19 +1,17 @@
 const passport = require('passport');
 var GoogleStrategy = require('passport-google-oauth20').Strategy;
 
-const GOOGLE_CLIENT_ID = "662771479171-jgl49fmfgfr3f30619pvmivrit644me6.apps.googleusercontent.com";
-const GOOGLE_CLIENT_SECRET = "zln1FpKEuq9xCSAndJ49Gndy";
 
+// Google Strategy
 passport.use(new GoogleStrategy({
-  clientID: GOOGLE_CLIENT_ID,
-  clientSecret: GOOGLE_CLIENT_SECRET,
+  clientID: "662771479171-jgl49fmfgfr3f30619pvmivrit644me6.apps.googleusercontent.com",
+  clientSecret: "zln1FpKEuq9xCSAndJ49Gndy",
   callbackURL: "http://localhost:5000/auth/google/callback",
   passReqToCallback: true,
 },
 function(request, accessToken, refreshToken, profile, done) {
   return done(null, profile);
 }));
-
 
 
 passport.serializeUser(function(user, done) {
