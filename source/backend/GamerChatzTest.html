@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>socket io</title>
+  </head>
+
+  <body>
+    <h1 id ='headline1'>message from B</h1>
+
+    <h4 id = 'headline2'>message yours</h4>
+      
+    <input type = 'text' id = 'sendMessage'/>
+    <input type ='submit' value = 'Message' onclick = 'sendMessage()'/>
+
+    <input type = 'text' id = 'sendRoom'/>
+    <input type ='submit' value = 'Room' onclick = 'sendRoom()'/>
+  
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        
+        const socket = io();
+        const parent1 = document.getElementById('headline1');
+        const parent2 = document.getElementById('headline2');
+        const send = document.getElementById('sendMessage');
+        const room = document.getElementById('sendRoom');
+
+        socket.on('connect', () => {
+          console.log(socket.id)
+        });
+
+
+        const sendMessage = () => {
+          const data = send.value;
+          var room_id = room.value;  
+        
+          socket.emit('send:message', data, room_id);
+
+          const div = document.createElement('div');
+          div.innerText = data;
+          parent2.appendChild(div);
+        }
+
+        const sendRoom = () => {
+          var room_id = room.value;
+          socket.emit('join:room', room_id, data => {
+            console.log(data);
+          });
+          
+        }
+
+
+        socket.on('receive:message', (response) => {  
+          
+          console.log(response)
+            const div = document.createElement('div');
+            div.innerText = response;
+            parent1.appendChild(div) 
+        });
+
+
+    
+    </script>
+
+  </body>
+</html>

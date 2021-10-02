@@ -16,7 +16,7 @@ export default function yourGroups() {
                 <div className='content'>
                     <Navbar />
 
-                    <h1 className='headline'>Username</h1>
+                    <h1 className='headline'>Groupname</h1>
                     <section className='chat_sec'>
                         <p>elion: hi wussup</p>
                         <p>joe: hi wussup</p>
