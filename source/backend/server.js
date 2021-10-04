@@ -12,10 +12,20 @@ app.use(session({ secret: process.env.SESSION_SECRET, resave: false, saveUniniti
 app.use(passport.initialize());
 app.use(passport.session());
 
+const register = require('./controllers/register.js');
+
 
 app.get('/', (req, res) => {
-    res.send('Welcome to GamerChatz API');
+    res.sendFile(__dirname+ '/GamerChatzTest.html');
 });
+
+const onConnection = (socket) => {
+    console.log(socket.id)
+    register(io, socket);
+}
+
+io.on('connection', onConnection);
+
 
 app.use('/auth', require('./routes/auth_routes.js'));
 
